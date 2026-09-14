@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrownCaps - Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">CrownCaps</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="store.html" class="active">Cart store</a>
+            <a href="cart.html">Add to cart</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 style="margin-bottom: 1.5rem;">Our Cap Collection</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?auto=format&fit=crop&w=500&q=80" alt="Urban Black Snapback">
+                <h3>Urban Black Snapback</h3>
+                <p>P150.00</p>
+                <button onclick="addToCart('Urban Black Snapback', 150)" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1534215754734-18e55d13434b?auto=format&fit=crop&w=500&q=80" alt="Classic Beige Dad Hat">
+                <h3>Classic Beige Dad Hat</h3>
+                <p>P120.00</p>
+                <button onclick="addToCart('Classic Beige Dad Hat', 120)" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=500&q=80" alt="Mesh Trucker Cap">
+                <h3>Mesh Trucker Cap</h3>
+                <p>P135.00</p>
+                <button onclick="addToCart('Mesh Trucker Cap', 135)" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=500&q=80" alt="Minimalist Olive Cap">
+                <h3>Minimalist Olive Cap</h3>
+                <p>P140.00</p>
+                <button onclick="addToCart('Minimalist Olive Cap', 140)" class="btn">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 CrownCaps. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
