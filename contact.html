@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrownCaps - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">CrownCaps</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="store.html">Cart store</a>
+            <a href="cart.html">Add to cart</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2 style="margin-bottom: 1rem;">Get in Touch</h2>
+            <p style="margin-bottom: 1.5rem; color: #666;">Have questions about our caps or custom orders? Drop us a message!</p>
+            <form onsubmit="alert('Thank you! Your message has been sent.'); return false;">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" required placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" required placeholder="How can we help you?"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 CrownCaps. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
